@@ -1,5 +1,13 @@
 # IOFileOperations-HadoopSample
 
+To run the application
+
+## WordCount - mvn clean package - will create a executable jar file which can be run using
+
+./hadoop jar /home/varun/eclipse-workspace/HadoopSample/target/HadoopSample-0.0.1-SNAPSHOT.jar com.sample.main.WordCount ./user/input/ ./user/output2/
+
+## TestConnection - is a java application which can be directly run after modifying I/O as per system where it is executing
+
 SINGLE NODE HADOOP CLUSTER, ACCESSING DATA USING HDFS URI AND SETUP RELATED
 
 HDFS namenode, datanode, nodemanager and resourcemanager server activation
