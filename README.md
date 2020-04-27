@@ -115,9 +115,13 @@ To get contents of the HDFS
 //TO CHECK THE FILES USE HDFS COMMANDS
 	
 cd ~/Downloads/hadoop-2.10.0 
+
 bin/hdfs dfs -ls /user
+
 bin/hdfs dfs -mkdir -p /wordcount/input/
+
 bin/hdfs dfs -copyFromLocal /tmp/namenode/sample.txt /wordcount/input/
+
 
 TO ACCESS HDFS DATA FROM URI FROM JAVA CODE
 
